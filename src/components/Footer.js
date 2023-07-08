@@ -28,7 +28,7 @@ const Footer = () => {
           <LinkedInLogo className={"h-5 w-auto"} />
         </Link>
         <Link
-          to={"https://portfolio-nine-ruddy-91.vercel.app/"}
+          to={"https://portfolio-kimi-nel.vercel.app/"}
           className="hover:-translate-y-1 transition duration-200"
           target="_blank"
         >

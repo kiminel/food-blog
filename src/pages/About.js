@@ -25,7 +25,7 @@ const About = () => {
             </div>
           </h2>
           <p className="italic">
-            I'm a passionate Software Engineer/ Fullstack Developer who enjoys
+            I'm a passionate Software Engineer/ Full Stack Developer who enjoys
             learning and creating new things!
           </p>
           <div className="py-8">
@@ -33,7 +33,7 @@ const About = () => {
               <Link
                 className="bg-dark text-fill p-4 rounded-lg text-lg "
                 target="_blank"
-                to="https://portfolio-nine-ruddy-91.vercel.app/"
+                to="https://portfolio-kimi-nel.vercel.app/"
               >
                 Check out my Website
               </Link>
