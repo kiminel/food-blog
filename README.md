@@ -24,7 +24,7 @@ There are mock Comments from mock Users being pulled in as well.
 
 Open the Link below to view a Hosted version of this project:
 
-[Food Blog Hosting TBC](https://www.google.com)
+[Food Blog Hosting TBC]([https://www.google.com](https://sa-food-blog.netlify.app/))
 
 ## Troubleshooting
 
