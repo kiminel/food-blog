@@ -6,10 +6,12 @@ const Search = () => {
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
 
+  // The searchBox input is assigned to a value where regex is applied to it
+  // The regex expression replaces all (g) and any amount of spaces (s+) with a dash ("-")
   const handleSearch = (searchBox) => {
     searchBox.preventDefault();
     setSearch("");
-    const value = search.trim().replace(/\s+/g, "-").toLocaleLowerCase(); //regex to replace space(s) with dash
+    const value = search.trim().replace(/\s+/g, "-").toLocaleLowerCase();
 
     navigate(`/search/${value}`);
   };
