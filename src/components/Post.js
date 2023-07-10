@@ -12,14 +12,18 @@ const Post = ({ post }) => {
   return (
     <article className="w-full py-8 mt-24">
       <div className="shadow-lg rounded-xl opacity-0.2 z-10">
-        <Link to={"/"} className="flex justify-end mr-2 mt-2 pt-4">
-          <Xmark className="h-8 w-8 transform hover:scale-150 transition duration-500 ease-in-out rounded-md" />
-        </Link>
+        <div className="pt-4 pb-4 px-4 mt-4 flex justify-between">
+          <div className="flex justify-center w-full">
+            <h2 className="text-3xl font-extrabold text-center pr-4 ">
+              {post.title}
+            </h2>
+          </div>
 
-        <div className="pb-6 px-2 flex justify-center -mt-8">
-          <h2 className="flex text-center text-3xl font-extrabold">
-            {post.title}
-          </h2>
+          <div className="px-4 flex justify-end">
+            <Link to={"/"}>
+              <Xmark className="h-8 w-8 transform hover:scale-150 transition duration-500 ease-in-out rounded-md" />
+            </Link>
+          </div>
         </div>
 
         <div className="relative">
@@ -27,6 +31,7 @@ const Post = ({ post }) => {
             <img
               className="object-cover w-full max-h-[600px]"
               src={post.coverPhoto.url}
+              alt="Cover Photo"
             />
           </div>
           <span className="text-lg absolute right-0 bottom-0 p-2 mr-1 mb-1 bg-fill rounded-lg opacity-50 hover:opacity-75 transition duration-200 ease-in-out ">
@@ -56,12 +61,14 @@ const Post = ({ post }) => {
             <img
               className="max-h-[350px] object-cover w-full border-r border-fill"
               src={post.dishPicture.url}
+              alt="Dish Picture"
             />
           </div>
           <div className="flex">
             <img
               className="max-h-[350px] object-cover w-full"
               src={post.decorationPicture.url}
+              alt="Decorative Dish Picture"
             />
           </div>
         </div>
