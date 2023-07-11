@@ -35,9 +35,10 @@ const Footer = () => {
           <PortfolioIcon className={"h-6 w-auto animate-bounce"} />
         </Link>
       </div>
+
       <Link
         to={"/about"}
-        className="self-center transition duration-200 hover:bg-dark hover:text-fill rounded-lg px-3 py-1"
+        className="self-center transition duration-200 bg-dark text-fill rounded-lg mr-4 px-3 py-1 border-[2px] hover:bg-fill hover:text-dark font-semibold"
         target="_blank"
       >
         About

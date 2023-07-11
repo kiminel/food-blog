@@ -20,6 +20,9 @@ module.exports = {
       animation: {
         wave: "wave 2s infinite",
       },
+      backgroundImage: {
+        elephant: "url('/public/images/Elephant.png')",
+      },
     },
     animation: {
       bounce: "bounce 1s infinite",

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Posts = ({ posts }) => {
   return (
-    <div className="w-full p-8 grid grid-cols-4 gap-x-6 gap-y-6 mt-24 mb-16">
+    <div className="w-full p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6 mt-24 mb-16">
       {posts.map((post) => (
         <div
           className="max-h-[650px] col-span-1 shadow-xl rounded-xl pb-4 transform hover:scale-105 transition duration-500 ease-in-out"

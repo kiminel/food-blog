@@ -8,7 +8,7 @@ const RecipeView = () => {
   const { posts, error } = useQueryPosts({ query: QUERY_SINGLE_POST });
   if (error) return <h2 style={{ textAlign: "center" }}>{error}</h2>;
   return (
-    <div className="w-full px-[450px]">
+    <div className="w-full px-[80px] md:px[300px] lg:px-[450px]">
       {posts?.map((post) => (
         <div key={post.id}>
           <Post post={post} />
