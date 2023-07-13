@@ -32,6 +32,5 @@ module.exports = {
       dark: "#010002",
     },
   },
-
   plugins: [],
 };

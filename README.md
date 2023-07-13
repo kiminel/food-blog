@@ -2,6 +2,12 @@
 
 ## This project is a Food Blog that contains traditional South African recipes.
 
+## Hosting
+
+Open the Link below to view a Hosted version of this project:
+
+[Food Blog Hosting TBC](https://sa-food-blog.netlify.app/)
+
 ## Start up
 
 Run the following commands to spin up locally:
@@ -20,11 +26,6 @@ Each Blog Post is a Recipe which belongs to one of the following Categories:
 
 There are mock Comments from mock Users being pulled in as well.
 
-## Hosting
-
-Open the Link below to view a Hosted version of this project:
-
-[Food Blog Hosting TBC](https://sa-food-blog.netlify.app/)
 
 ## Troubleshooting
 
@@ -52,7 +53,6 @@ Restart with: `npm run start`
 
 - [graphql-request](https://www.npmjs.com/package/graphql-request)
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
-- [react-topbar-progress-indicator](https://www.npmjs.com/package/react-topbar-progress-indicator)
 - [FontAwesome](https://cdnjs.com/libraries/font-awesome)
 - [Google Fonts](https://fonts.google.com/)
 
