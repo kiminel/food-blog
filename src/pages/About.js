@@ -10,7 +10,7 @@ const About = () => {
           <img
             className="w-auto"
             src={"/images/Buffalo.png"}
-            alt={"South African Food Blog Logo"}
+            alt={"South African Food Blog"}
           />
         </div>
 

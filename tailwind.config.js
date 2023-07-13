@@ -28,6 +28,7 @@ module.exports = {
       bounce: "bounce 1s infinite",
     },
     colors: {
+      white: "#fefdfd",
       fill: "#f4f6f8",
       dark: "#010002",
     },

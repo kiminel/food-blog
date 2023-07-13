@@ -17,9 +17,9 @@ const Search = () => {
   };
 
   return (
-    <form className="w-1/2 flex h-10" onSubmit={handleSearch}>
+    <form className="w-full md:w-1/2 flex h-10" onSubmit={handleSearch}>
       <input
-        className="w-full px-4 rounded-md placeholder:text-dark"
+        className="w-full px-4 rounded-md placeholder:text-dark bg-dark/5 text-fill md:text-dark shadow-md"
         type="search"
         placeholder="Search recipe"
         required
@@ -28,7 +28,7 @@ const Search = () => {
       />
 
       <button type="submit">
-        <MagnifyingGlass className="h-6 w-6 -ml-10" />
+        <MagnifyingGlass className="h-6 w-6 -ml-10 text-dark" />
       </button>
     </form>
   );

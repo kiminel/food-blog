@@ -12,7 +12,7 @@ const Posts = ({ posts }) => {
           <Link to={`/recipe/${post.slug}`} className="rounded-t-xl">
             <img
               src={post.coverPhoto.url}
-              alt={"Recipe coverphoto"}
+              alt={"Recipe"}
               className="hover:contrast-125 duration-500 rounded-t-xl object-cover w-full max-h-[275px]"
             />
 

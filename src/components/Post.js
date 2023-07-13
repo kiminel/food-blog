@@ -31,7 +31,7 @@ const Post = ({ post }) => {
             <img
               className="object-cover w-full max-h-[600px]"
               src={post.coverPhoto.url}
-              alt="Cover Photo"
+              alt="Cover"
             />
           </div>
           <span className="text-lg absolute right-0 bottom-0 p-2 mr-1 mb-1 bg-fill rounded-lg opacity-[40%] hover:opacity-75 transition duration-200 ease-in-out ">
@@ -61,14 +61,14 @@ const Post = ({ post }) => {
             <img
               className="max-h-[350px] object-cover w-full border-r border-fill"
               src={post.dishPicture.url}
-              alt="Dish Picture"
+              alt="Dish"
             />
           </div>
           <div className="flex">
             <img
               className="max-h-[350px] object-cover w-full"
               src={post.decorationPicture.url}
-              alt="Decorative Dish Picture"
+              alt="Decorative Dish"
             />
           </div>
         </div>
