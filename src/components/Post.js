@@ -34,7 +34,7 @@ const Post = ({ post }) => {
               alt="Cover"
             />
           </div>
-          <span className="text-lg absolute right-0 bottom-0 p-2 mr-1 mb-1 bg-fill rounded-lg opacity-[40%] hover:opacity-75 transition duration-200 ease-in-out ">
+          <span className="text-xs md:text-md lg:text-lg absolute right-0 bottom-0 p-2 mr-1 mb-1 bg-fill rounded-lg opacity-[40%] hover:opacity-75 transition duration-200 ease-in-out">
             {generatePostContent(post.cookingDetails.html)}
           </span>
         </div>
