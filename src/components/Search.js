@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import MagnifyingGlass from "./icons/MagnifyingGlass";
 
 const Search = () => {
@@ -16,10 +16,19 @@ const Search = () => {
     navigate(`/search/${value}`);
   };
 
+  //Find location of the About page and hide SearchBar component
+  let location = useLocation();
+  if (location.pathname.match("/about")) {
+    return null;
+  }
+
   return (
-    <form className="w-full md:w-1/2 flex h-10" onSubmit={handleSearch}>
+    <form
+      className="w-full flex justify-center h-10 mt-28 px-4"
+      onSubmit={handleSearch}
+    >
       <input
-        className="w-full px-4 rounded-md placeholder:text-dark bg-dark/5 text-fill md:text-dark shadow-md"
+        className="w-full px-4 rounded-md placeholder:text-dark bg-white text-dark shadow-md"
         type="search"
         placeholder="Search recipe"
         required

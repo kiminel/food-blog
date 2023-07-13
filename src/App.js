@@ -7,11 +7,13 @@ import PostsByCategory from "./pages/PostsByCategory";
 import SearchResults from "./pages/SearchResults";
 import RecipeView from "./pages/RecipeView";
 import About from "./pages/About";
+import Search from "./components/Search";
 
 const App = () => {
   return (
-    <div className="font-Catamaran w-full min-h-screen flex flex-col justify-between bg-fill overflow-hidden">
+    <div className="w-full min-h-screen flex flex-col bg-fill overflow-hidden">
       <Header />
+      <Search />
 
       <main>
         <Routes>

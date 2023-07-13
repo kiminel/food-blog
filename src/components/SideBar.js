@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Search from "./Search";
 import Xmark from "./icons/Xmark";
 
 const SideBar = ({ categories }) => {
@@ -8,7 +7,7 @@ const SideBar = ({ categories }) => {
 
   return (
     <div
-      className={`bg-white top-0 right-0 w-[70vw] text-white fixed h-full grid shadow-2xl ${
+      className={`bg-white top-0 right-0 w-[70vw] text-white fixed h-full grid shadow-2xl md:hidden ${
         isOpen ? "" : "hidden"
       }`}
     >
@@ -19,8 +18,6 @@ const SideBar = ({ categories }) => {
         >
           <Xmark className={"w-12 h-12"} />
         </button>
-
-        <Search onClick={() => setIsOpen(!isOpen)} />
       </div>
 
       <div className="row-span-1 flex justify-center text-center">

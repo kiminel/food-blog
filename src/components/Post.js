@@ -10,7 +10,7 @@ const Post = ({ post }) => {
   };
 
   return (
-    <article className="w-full py-8 mt-24">
+    <article className="w-full py-8 mt-4">
       <div className="shadow-lg rounded-xl opacity-0.2 z-10">
         <div className="pt-4 pb-4 px-4 mt-4 flex justify-between">
           <div className="flex justify-center w-full">

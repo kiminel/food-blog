@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen overflow-hidden">
-      <div className="px-4 grid grid-cols-2">
-        <div className="self-center">
+    <div className="w-full min-h-screen overflow-hidden flex items-center">
+      <div className="px-4 grid lg:grid-cols-2">
+        <div className="w-full flex justify-center pb-12 md:pb-0">
           <img
-            className="w-auto"
+            className="w-auto h-auto max-h-[800px]"
             src={"/images/Buffalo.png"}
             alt={"South African Food Blog"}
           />
