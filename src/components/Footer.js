@@ -37,7 +37,6 @@ const Footer = () => {
           <Link
             to={"/about"}
             className="transition duration-200 bg-dark text-fill rounded-lg mr-4 px-2 py-1 text-base md:px-3 md:py-1 md:text-xl border-[2px] hover:bg-fill hover:text-dark font-semibold"
-            target="_blank"
           >
             About
           </Link>
